@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <form>
+		<h1>Cadastro</h1>
+		<p>Desenvovido para estudos</p>
+		<hr>
+		<label for="name"><b>Nome</b></label>
+		<input type="text" placeholder="Escreva seu nome" name="name" required><br>
+		
+		<label for="email"><b>Email</b></label> 
+		<input type="text" placeholder="Digite seu email" name="email" required><br>
+
+		<label for="password"><b>Senha</b></label>
+		<input type="password" placeholder="Escreva uma senha" name="password" required><br>
+
+        <label for="rg"><b>Registro Geral</b></label>
+        <input type="text" placeholder="Escreva seu RG" name="RG" required><br>
+        
+        <div>
+        <p><b>Selecione seu gênero</b><br>
+        <label for="sexo">Masculino</label>
+        <input type="radio" placeholder="none" name="sexo" required><br>
+        <label for="sexo">Feminino</label>
+        <input type="radio" placeholder="none" name="sexo" required><br>
+        <label for="sexo">Outros</label>
+        <input type="radio" placeholder="none" name="sexo" required><br></p>
+    </div>
+        <p><b>Possui alguns dos documentos abaixo?</b></p>
+                <label for="cpf">Cadastro de Pessoa física</label>
+                <input type="checkbox" placeholder="none" name="cpf" required><br>
+                <label for="dn">Data de nascimento</label>
+                <input type="checkbox" placeholder="none" name="dn" required><br>
+                <label for="cdt">Carteira de trabalho</label>
+                <input type="checkbox" placeholder="none" name="cdt" required><br>
+
+        <p><b>profissões</b></p>
+        <select name="profissões" id="">
+            <option value="Tecnico">Técnico de computadores</option>
+            <option value="Tecnico">Designer Gráfico</option>
+            <option value="Tecnico">Enfermagem</option>
+            <option value="Tecnico">Administração</option>
+            <option value="Tecnico">Desenvolvedor de sistemas</option>
+            <option value="Tecnico">Engenheiro de software</option>
+        </select>
+    </p>
+
+        <button type="submit" class="botao">Registre-se</button>
+
+		<p>Já tem uma conta?<a href="entrar.html"> Entrar</a>.</p>
+	</form>
+</body>
+</html>
